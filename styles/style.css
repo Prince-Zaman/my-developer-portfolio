@@ -1,0 +1,55 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.main-body {
+  width: 80%;
+  margin: 0 auto;
+}
+.side-line {
+  border-left: 3px solid;
+  border-image: linear-gradient(rgb(180, 29, 87), cyan);
+  border-image-slice: 1;
+  padding-left: 10px;
+}
+.colored-text {
+  color: rgb(45, 141, 109);
+}
+.flexible-content {
+  display: flex;
+  justify-content: space-between;
+}
+.width-60 {
+  width: 60%;
+}
+.width-40 {
+  width: 40%;
+}
+.width-40 > img {
+  width: 60%;
+}
+.card > img {
+  width: 200px;
+  height: 150px;
+}
+h1 {
+  font-size: 30px;
+}
+.card {
+  width: 40%;
+  height: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 35px rgb(214, 65, 219);
+}
+.mission-part {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
