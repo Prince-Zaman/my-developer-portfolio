@@ -13,7 +13,10 @@ body {
 }
 .side-line {
   border-left: 3px solid;
-  border-image: linear-gradient(rgb(180, 29, 87), cyan);
+  border-image: linear-gradient(
+    rgba(134, 34, 72, 0.575),
+    rgba(238, 36, 238, 0.644)
+  );
   border-image-slice: 1;
   padding-left: 10px;
 }
@@ -24,7 +27,10 @@ body {
   display: inline-block;
   margin: 20px 0;
   text-decoration: none;
-  background-image: linear-gradient(rgb(0, 255, 234), rgb(27, 99, 99));
+  background-image: linear-gradient(
+    rgba(253, 57, 188, 0.644),
+    rgba(255, 53, 63, 0.623)
+  );
   padding: 10px 40px;
   color: rgb(255, 255, 255);
   font-weight: 800;
