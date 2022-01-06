@@ -84,3 +84,11 @@ footer {
 .khaki-color {
   background-color: rgba(209, 201, 132, 0.616);
 }
+.info-part {
+  display: inline-flex;
+  margin-bottom: 50px;
+  width: 25%;
+  height: 50;
+  padding: 3%;
+  border-radius: 10px;
+}
