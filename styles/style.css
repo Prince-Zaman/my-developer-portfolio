@@ -67,6 +67,7 @@ footer {
   text-align: center;
   background-color: black;
   color: white;
+  padding: 40px 0;
 }
 .ash-color {
   background-color: rgba(110, 103, 103, 0.411);
